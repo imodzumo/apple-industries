@@ -1,5 +1,5 @@
 <template>
-  <v-card class="ma-10">
+  <v-card class="my-4 mx-10">
     <v-toolbar color="teal">
       <v-toolbar-title>Apple Industries - test task</v-toolbar-title>
       <template v-slot:extension>
@@ -20,7 +20,7 @@
         :key="item"
         :value="item"
       >
-        <v-card min-height="600">
+        <v-card min-height="500">
           <v-card-text>
             <component :is="tabComponents[item]" />
           </v-card-text>
